@@ -1,0 +1,8 @@
+@font-face {
+  font-family: IMMORTAL;
+  src: url(IMMORTAL.ttf);
+}
+
+* {
+  font-family: IMMORTAL;
+}
