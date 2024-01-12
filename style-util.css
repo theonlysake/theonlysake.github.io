@@ -1,8 +1,108 @@
 @font-face {
   font-family: IMMORTAL;
-  src: url(IMMORTAL.ttf);
+  src: url("IMMORTAL.ttf");
 }
 
 * {
   font-family: IMMORTAL;
+}
+
+body {
+  background-image: url("images/Pick_Hero_bar2.png");
+  background-position: center;
+  background-size: 110% 110%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text-custom {
+  color: #C0A487 !important;
+}
+
+a.text-custom:hover {
+  color: #745a3e !important;
+}
+
+.text-custom.disabled {
+  color: #81766a !important;
+}
+
+#navbar-mygame-dropdown {
+  background-image: url("images/puzzle_button.png");
+  background-position: center;
+  background-size: 100% 100%;
+  border-radius: none;
+  background-color: rgba(0, 0, 0, 0);
+  max-width: 260px;
+}
+
+#navbar-mygame-dropdown>li>.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#navbar-mygame-dropdown>img {
+  height: 10px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#main-navbar-toggle-icon {
+  width: 35px;
+  height: 35px;
+  outline: none;
+  box-shadow: none;
+}
+
+#main-navbar-toggle-icon[aria-expanded="false"] {
+  background: url("images/Button_tiny_plus_bl.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#main-navbar-toggle-icon[aria-expanded="false"]:hover {
+  background: url("images/Button_tiny_plus.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#main-navbar-toggle-icon[aria-expanded="true"] {
+  background: url("images/Button_tiny_minus_bl.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#main-navbar-toggle-icon[aria-expanded="true"]:hover {
+  background: url("images/Button_tiny_minus.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#main-navbar-toggle-icon>div:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#main-navbar-toggle-icon:focus {
+  outline: none !important;
+}
+
+#main-navbar {
+  background-image: url("images/puzzle_button_bg.png");
+  background-position: center;
+  background-size: 110% 110%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-bottom: 2px solid #C0A487;
+}
+
+#check-out-my-game-button {
+  background-image: url("images/Button_B_Long_Ready.png");
+  background-position: center;
+  background-size: 100% 100%;
+  width: 350px;
+  height: 70px;
+  text-align: center;
+}
+
+#check-out-my-game-button:hover {
+  background-image: url("images/Button_B_Long_active.png");
 }
