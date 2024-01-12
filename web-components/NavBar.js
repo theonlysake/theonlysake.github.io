@@ -12,7 +12,7 @@ class NavBar extends HTMLElement {
   <div class="container-fluid">
     <a class="navbar-brand text-custom" href="#">DarianLP</a>
     <button id="main-navbar-toggle-icon" class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <img src="images/Button_tiny_plus_bl.png"/>
+      
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-2">
